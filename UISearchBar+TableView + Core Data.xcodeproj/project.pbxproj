@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		1E9A25721A38D5AB0042E692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A25711A38D5AB0042E692 /* AppDelegate.swift */; };
 		1E9A25751A38D5AB0042E692 /* UISearchBar_TableView___Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A25731A38D5AB0042E692 /* UISearchBar_TableView___Core_Data.xcdatamodeld */; };
-		1E9A25771A38D5AB0042E692 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A25761A38D5AB0042E692 /* MasterViewController.swift */; };
-		1E9A25791A38D5AB0042E692 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A25781A38D5AB0042E692 /* DetailViewController.swift */; };
 		1E9A257C1A38D5AB0042E692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9A257A1A38D5AB0042E692 /* Main.storyboard */; };
 		1E9A257E1A38D5AB0042E692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9A257D1A38D5AB0042E692 /* Images.xcassets */; };
 		1E9A25811A38D5AB0042E692 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E9A257F1A38D5AB0042E692 /* LaunchScreen.xib */; };
 		1E9A258D1A38D5AB0042E692 /* UISearchBar_TableView___Core_DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A258C1A38D5AB0042E692 /* UISearchBar_TableView___Core_DataTests.swift */; };
+		1E9A259B1A38DE710042E692 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A25981A38DE710042E692 /* DismissingAnimator.m */; };
+		1E9A259C1A38DE710042E692 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9A259A1A38DE710042E692 /* PresentingAnimator.m */; };
+		1EF6D6CE1A38F75400114EF6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6D6CC1A38F75400114EF6 /* DetailsViewController.swift */; };
+		1EF6D6D91A39171500114EF6 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6D6D21A39171500114EF6 /* TPKeyboardAvoidingCollectionView.m */; };
+		1EF6D6DA1A39171500114EF6 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6D6D41A39171500114EF6 /* TPKeyboardAvoidingScrollView.m */; };
+		1EF6D6DB1A39171500114EF6 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6D6D61A39171500114EF6 /* TPKeyboardAvoidingTableView.m */; };
+		1EF6D6DC1A39171500114EF6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6D6D81A39171500114EF6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		1EF6D6DE1A39195600114EF6 /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6D6DD1A39195600114EF6 /* DiaryEntry.swift */; };
+		1EF6D6E11A394C9700114EF6 /* ViewArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6D6E01A394C9700114EF6 /* ViewArticleViewController.swift */; };
+		1EF6D6E31A3969ED00114EF6 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6D6E21A3969ED00114EF6 /* MasterTableViewController.swift */; };
+		385B175FDC46F4D9D615D32E /* libPods-UISearchBar+TableView + Core Data.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B42E3853B511FC53790DE479 /* libPods-UISearchBar+TableView + Core Data.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +41,32 @@
 		1E9A25701A38D5AB0042E692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E9A25711A38D5AB0042E692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E9A25741A38D5AB0042E692 /* UISearchBar_TableView___Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "UISearchBar_TableView___Core_Data.xcdatamodel"; sourceTree = "<group>"; };
-		1E9A25761A38D5AB0042E692 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		1E9A25781A38D5AB0042E692 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1E9A257B1A38D5AB0042E692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E9A257D1A38D5AB0042E692 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1E9A25801A38D5AB0042E692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1E9A25861A38D5AB0042E692 /* UISearchBar+TableView + Core DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISearchBar+TableView + Core DataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9A258B1A38D5AB0042E692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E9A258C1A38D5AB0042E692 /* UISearchBar_TableView___Core_DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar_TableView___Core_DataTests.swift"; sourceTree = "<group>"; };
+		1E9A25961A38DE710042E692 /* UISearchBar+TableView + Core Data-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+TableView + Core Data-Bridging-Header.h"; sourceTree = "<group>"; };
+		1E9A25971A38DE710042E692 /* DismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
+		1E9A25981A38DE710042E692 /* DismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
+		1E9A25991A38DE710042E692 /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
+		1E9A259A1A38DE710042E692 /* PresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
+		1EF6D6CC1A38F75400114EF6 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1EF6D6D11A39171500114EF6 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		1EF6D6D21A39171500114EF6 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		1EF6D6D31A39171500114EF6 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		1EF6D6D41A39171500114EF6 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		1EF6D6D51A39171500114EF6 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		1EF6D6D61A39171500114EF6 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		1EF6D6D71A39171500114EF6 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		1EF6D6D81A39171500114EF6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		1EF6D6DD1A39195600114EF6 /* DiaryEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryEntry.swift; sourceTree = "<group>"; };
+		1EF6D6E01A394C9700114EF6 /* ViewArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewArticleViewController.swift; sourceTree = "<group>"; };
+		1EF6D6E21A3969ED00114EF6 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		25D123464A29195E27D4AC41 /* Pods-UISearchBar+TableView + Core Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISearchBar+TableView + Core Data.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UISearchBar+TableView + Core Data/Pods-UISearchBar+TableView + Core Data.debug.xcconfig"; sourceTree = "<group>"; };
+		B42E3853B511FC53790DE479 /* libPods-UISearchBar+TableView + Core Data.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UISearchBar+TableView + Core Data.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6AD66C0F398EC04F7D64B3 /* Pods-UISearchBar+TableView + Core Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISearchBar+TableView + Core Data.release.xcconfig"; path = "Pods/Target Support Files/Pods-UISearchBar+TableView + Core Data/Pods-UISearchBar+TableView + Core Data.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385B175FDC46F4D9D615D32E /* libPods-UISearchBar+TableView + Core Data.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +94,8 @@
 				1E9A256E1A38D5AB0042E692 /* UISearchBar+TableView + Core Data */,
 				1E9A25891A38D5AB0042E692 /* UISearchBar+TableView + Core DataTests */,
 				1E9A256D1A38D5AB0042E692 /* Products */,
+				CAEB0232B50DA3BEE77738E3 /* Pods */,
+				5DF5F842C5EBE1250CA64363 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,13 +112,17 @@
 			isa = PBXGroup;
 			children = (
 				1E9A25711A38D5AB0042E692 /* AppDelegate.swift */,
-				1E9A25761A38D5AB0042E692 /* MasterViewController.swift */,
-				1E9A25781A38D5AB0042E692 /* DetailViewController.swift */,
 				1E9A257A1A38D5AB0042E692 /* Main.storyboard */,
+				1EF6D6CC1A38F75400114EF6 /* DetailsViewController.swift */,
+				1EF6D6E21A3969ED00114EF6 /* MasterTableViewController.swift */,
+				1EF6D6E01A394C9700114EF6 /* ViewArticleViewController.swift */,
+				1EF6D6DF1A391AC200114EF6 /* CustomClasses */,
+				1EF6D6D01A39171500114EF6 /* TPKeyboardAvoiding */,
 				1E9A257D1A38D5AB0042E692 /* Images.xcassets */,
 				1E9A257F1A38D5AB0042E692 /* LaunchScreen.xib */,
 				1E9A25731A38D5AB0042E692 /* UISearchBar_TableView___Core_Data.xcdatamodeld */,
 				1E9A256F1A38D5AB0042E692 /* Supporting Files */,
+				1E9A25961A38DE710042E692 /* UISearchBar+TableView + Core Data-Bridging-Header.h */,
 			);
 			path = "UISearchBar+TableView + Core Data";
 			sourceTree = "<group>";
@@ -118,6 +152,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1EF6D6D01A39171500114EF6 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				1EF6D6D11A39171500114EF6 /* TPKeyboardAvoidingCollectionView.h */,
+				1EF6D6D21A39171500114EF6 /* TPKeyboardAvoidingCollectionView.m */,
+				1EF6D6D31A39171500114EF6 /* TPKeyboardAvoidingScrollView.h */,
+				1EF6D6D41A39171500114EF6 /* TPKeyboardAvoidingScrollView.m */,
+				1EF6D6D51A39171500114EF6 /* TPKeyboardAvoidingTableView.h */,
+				1EF6D6D61A39171500114EF6 /* TPKeyboardAvoidingTableView.m */,
+				1EF6D6D71A39171500114EF6 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				1EF6D6D81A39171500114EF6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		1EF6D6DF1A391AC200114EF6 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1EF6D6DD1A39195600114EF6 /* DiaryEntry.swift */,
+				1E9A25971A38DE710042E692 /* DismissingAnimator.h */,
+				1E9A25981A38DE710042E692 /* DismissingAnimator.m */,
+				1E9A25991A38DE710042E692 /* PresentingAnimator.h */,
+				1E9A259A1A38DE710042E692 /* PresentingAnimator.m */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
+		5DF5F842C5EBE1250CA64363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B42E3853B511FC53790DE479 /* libPods-UISearchBar+TableView + Core Data.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAEB0232B50DA3BEE77738E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D123464A29195E27D4AC41 /* Pods-UISearchBar+TableView + Core Data.debug.xcconfig */,
+				DD6AD66C0F398EC04F7D64B3 /* Pods-UISearchBar+TableView + Core Data.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E9A25901A38D5AB0042E692 /* Build configuration list for PBXNativeTarget "UISearchBar+TableView + Core Data" */;
 			buildPhases = (
+				8B0F61D5D56708E431B0D1B8 /* Check Pods Manifest.lock */,
 				1E9A25681A38D5AB0042E692 /* Sources */,
 				1E9A25691A38D5AB0042E692 /* Frameworks */,
 				1E9A256A1A38D5AB0042E692 /* Resources */,
+				213BAB9E635F00C6EE6B78FD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,15 +293,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		213BAB9E635F00C6EE6B78FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UISearchBar+TableView + Core Data/Pods-UISearchBar+TableView + Core Data-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0F61D5D56708E431B0D1B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E9A25681A38D5AB0042E692 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1E9A25751A38D5AB0042E692 /* UISearchBar_TableView___Core_Data.xcdatamodeld in Sources */,
+				1EF6D6DC1A39171500114EF6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				1EF6D6DA1A39171500114EF6 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				1EF6D6D91A39171500114EF6 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				1E9A259C1A38DE710042E692 /* PresentingAnimator.m in Sources */,
 				1E9A25721A38D5AB0042E692 /* AppDelegate.swift in Sources */,
-				1E9A25771A38D5AB0042E692 /* MasterViewController.swift in Sources */,
-				1E9A25791A38D5AB0042E692 /* DetailViewController.swift in Sources */,
+				1EF6D6CE1A38F75400114EF6 /* DetailsViewController.swift in Sources */,
+				1E9A259B1A38DE710042E692 /* DismissingAnimator.m in Sources */,
+				1EF6D6DB1A39171500114EF6 /* TPKeyboardAvoidingTableView.m in Sources */,
+				1EF6D6E11A394C9700114EF6 /* ViewArticleViewController.swift in Sources */,
+				1EF6D6DE1A39195600114EF6 /* DiaryEntry.swift in Sources */,
+				1EF6D6E31A3969ED00114EF6 /* MasterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,21 +463,28 @@
 		};
 		1E9A25911A38D5AB0042E692 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D123464A29195E27D4AC41 /* Pods-UISearchBar+TableView + Core Data.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "UISearchBar+TableView + Core Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UISearchBar+TableView + Core Data/UISearchBar+TableView + Core Data-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1E9A25921A38D5AB0042E692 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6AD66C0F398EC04F7D64B3 /* Pods-UISearchBar+TableView + Core Data.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "UISearchBar+TableView + Core Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UISearchBar+TableView + Core Data/UISearchBar+TableView + Core Data-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,6 +541,7 @@
 				1E9A25921A38D5AB0042E692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E9A25931A38D5AB0042E692 /* Build configuration list for PBXNativeTarget "UISearchBar+TableView + Core DataTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +550,7 @@
 				1E9A25951A38D5AB0042E692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

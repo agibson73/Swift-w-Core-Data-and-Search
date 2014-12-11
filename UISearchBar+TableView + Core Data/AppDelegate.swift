@@ -1,9 +1,10 @@
 //
 //  AppDelegate.swift
 //  UISearchBar+TableView + Core Data
+//  UISearchBar+TableView + Core Data
 //
-//  Created by Steven Gibson on 12/10/14.
-//  Copyright (c) 2014 OakmontTech. All rights reserved.
+//  Created by Alex Gibson on 12/11/14.
+//  Copyright (c) 2014 Alex Gibson . All rights reserved.
 //
 
 import UIKit
@@ -13,13 +14,14 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         let navigationController = self.window!.rootViewController as UINavigationController
-        let controller = navigationController.topViewController as MasterViewController
-        controller.managedObjectContext = self.managedObjectContext
+        let controller = navigationController.topViewController as MasterTableViewController
+       
         return true
     }
 
