@@ -14,6 +14,8 @@ class ViewArticleViewController: UIViewController {
 
     // what's up with ? and !  -optional or no this is going down like this
     
+    // Just a heads up this viewcontroller is pretty much worthless but i just was segue the data back and forth
+    
     var entry :NSManagedObject!
     
     @IBOutlet weak var entryTitleTextField: UITextField!

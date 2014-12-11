@@ -166,7 +166,10 @@ class MasterTableViewController: UITableViewController,UIViewControllerTransitio
         
         var entries : NSArray = self.diaryEntries
         
-        let predicate = NSPredicate(format: "entryTitle contains[c] %@", searchText)
+        
+        // This is how you would search two properties of NSManagedObject
+        let predicate = NSPredicate(format: "entryTitle contains[c] %@ OR diaryEntryText contains[c] %@", searchText,searchText)
+        
         self.searchDiaryEntries = entries.filteredArrayUsingPredicate(predicate!)
         
         
