@@ -3,12 +3,9 @@
     <entity name="DiaryEntry">
         <attribute name="diaryEntryText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="entryTitle" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="timeStamp" optional="YES" attributeType="Date">
-            <userInfo/>
-        </attribute>
         <userInfo/>
     </entity>
     <elements>
-        <element name="DiaryEntry" positionX="261" positionY="189" width="128" height="90"/>
+        <element name="DiaryEntry" positionX="261" positionY="189" width="128" height="75"/>
     </elements>
 </model>

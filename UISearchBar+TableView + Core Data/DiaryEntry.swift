@@ -7,6 +7,10 @@
 //  Copyright (c) 2014 Alex Gibson . All rights reserved.
 //
 
+
+/* if i was really serious I would use this nice class but right now I am not going to do it.  This is just a misfit toy */
+// if you want you can comment the entire thing out and the project will not hurt your computer
+
 import UIKit
 
 class DiaryEntry: NSObject {

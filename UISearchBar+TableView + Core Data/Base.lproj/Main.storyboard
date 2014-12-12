@@ -213,10 +213,13 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qbe-rQ-g1n" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UOU-VV-BDG">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="UOU-VV-BDG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.17986921289999999" green="0.41457161920000002" blue="0.67585038720000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
